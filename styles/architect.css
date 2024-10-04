@@ -103,7 +103,7 @@ header {
 }
 
 .banner-img {
-    width: 1022px;
+    max-width: 1022px;
     margin: 40px 145px;
 }
 
@@ -298,6 +298,7 @@ header {
     #experience-badge{
         margin-top: 20px;
         margin-left: 5px;
+        padding: 30px 15px;
     }
     .footer{        
         padding: 10px 10px;
@@ -341,12 +342,18 @@ header {
     }
 }
 /* Large device */
-@media screen and (min-width:1200px) and (max-width:1400px) {
+@media screen and (min-width:995px) and (max-width:1200px) {
     .featured-architect{
         width: 100%;
     }
     .featured-architect img{
         width: 100%;
         height: 90%;
+    }
+    .banner-img{
+        margin: 30px auto;
+    }
+    #statue{
+        width: 100%;
     }
 }
