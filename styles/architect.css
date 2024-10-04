@@ -357,3 +357,9 @@ header {
         width: 100%;
     }
 }
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .featured-architect img{
+        height: 90%;
+        width: 100%;
+    }
+}
